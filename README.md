@@ -34,23 +34,28 @@ This Laravel-based reservation system allows for the management of activities, c
 2. Install dependencies:
    ```bash
    composer install
+   ```
 3. Copy the .env.example file to .env and configure the database connection:
    ```bash
    cp .env.example .env
+   ```
  
 4. Generate application key:
    ```bash
    php artisan key:generate
+   ```
 
 5. Run migrations and seed the database:
    ```bash
    php artisan migrate --seed
-
+   ```
 ## Usage
 
 1. Run the development server:
    ```bash
    php artisan serve
+   ```
+   
 2. Access the application in your browser at http://localhost:8000.
 
 ## License
